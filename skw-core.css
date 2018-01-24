@@ -1,0 +1,123 @@
+/* ==========================================================================
+   SkewSlider Core Styles
+   ========================================================================== */
+
+.skw-list { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.skw-loader {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.skw-list > li { 
+    position: relative; 
+    overflow: hidden;  
+    list-style-type: none; 
+    float: left; 
+    width: 100%; 
+    height: 100%; 
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+}
+
+.skw-list > li .skw-content { 
+  height: 100%; 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  position: relative;
+  z-index: 1;
+}
+
+.skw-nav {position: static;}
+.skw-container:hover .skw-nav {
+   opacity: .6;
+}
+
+.skw-nav:hover { 
+    opacity: 1; 
+}
+
+.skw-nav > span { 
+  vertical-align: middle; 
+  cursor: pointer; 
+}
+
+.skw-dots { 
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+.skw-dots:before { 
+    content: ""; 
+    display: inline-block; 
+    height: 100%; 
+    vertical-align: middle; 
+}
+
+.skw-dots span { 
+    cursor: pointer;  
+    vertical-align: middle; 
+    width: 15px; 
+    height: 15px; 
+    display: inline-block; 
+    background: #fff;
+    margin: 5px;
+}
+
+
+.skw-itemNext, .skw-itemPrev { 
+    cursor: pointer;
+}
+
+.skw-trans { 
+    opacity: 0!important; 
+    pointer-events: none; 
+}
+
+.skw-noTransition .skw-list > li, .skw-noTransition .skw-list {
+    -webkit-transition: -webkit-transform 0s!important; 
+    -moz-transition: all 0s!important; 
+    -ms-transition: all 0s!important; 
+    transition: -webkit-transform 0s!important; 
+
+    -webkit-transition-delay: 0!important;
+    transition-delay: 0!important;
+}
+
+.skw-noEvents .skw-list > li {
+   pointer-events: none!important; 
+}
+
+.skw-list > li.skw-infLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.skw-noTransition {
+  pointer-events: none;
+}
+
+.skw-caption {
+    position: absolute;
+    z-index: 999;
+    opacity: 0;
+}
+
+

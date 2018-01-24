@@ -1,0 +1,79 @@
+ 
+  .skw-nav { 
+    background: rgba(255,255,255, .3); 
+    border-radius: 25px; 
+  }
+  
+  .skw-container:hover .skw-nav {
+     opacity: .6;
+  }
+  
+  .skw-nav:hover { 
+      opacity: 1; 
+      box-shadow: 0 0 4px rgba(0,0,0,.4); 
+      background: rgba(255,255,255, .7); 
+  }
+  
+ 
+  
+  .skw-nav > span:hover { opacity: 1;  }
+  
+  .skw-dots { 
+      margin: 0 20px; 
+  }
+  
+  .skw-dots span { 
+      cursor: pointer; 
+      opacity: .6; 
+      width: 15px; 
+      height: 15px; 
+      margin: 5px; 
+      background: #fff; 
+      border: 5px solid rgba(0,0,0,.8); 
+      border-radius: 50%; 
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      transition: all .3s;
+  }
+  
+  .skw-dots span:hover, .skw-dots span.skw-current { 
+      opacity: 1; 
+      -webkit-transform: scale(1.2,1.2);
+      -moz-transform: scale(1.2,1.2);
+      -ms-transform: scale(1.2,1.2);
+      transform: scale(1.2,1.2); 
+  }
+  
+  .skw-next { 
+      border-radius: 0 25px 25px 0; 
+  }
+  
+  .skw-prev { 
+      border-radius: 25px 0 0 25px; 
+  }
+  
+  .skw-caption {
+      position: absolute;
+      bottom: 55px;
+      color: #fff;
+      padding: 15px 5px;
+      -webkit-transition: opacity .8s;
+      -moz-transition:  opacity .8s;
+      -ms-transition:  opacity .8s;
+      transition:  opacity .8s;
+      right: 445px;
+      font-size: 24px; 
+      width: 295px;
+      text-align: left;
+      font-family: novareg;
+  }
+  @font-face{font-family: proximabold;src: url('./fonts/Proxima Nova Bold.otf')}
+  @font-face{font-family: novareg; src: url('./fonts/Proxima Nova Regular.otf')}
+
+  .skw-caption i{font-size: 39px; font-style: normal; font-family: proximabold;}
+  .skw-caption i:nth-of-type(2){font-size: 30px;font-family: proximabold;}
+
+  button{width: 145px;height: 40px;background-color: #fdf9f9;padding: 0;border: none;outline: none;color: #959393;font-family: proximabold;font-size: 17px;}
+  
+  

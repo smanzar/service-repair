@@ -1,0 +1,185 @@
+@font-face{font-family: proximabold;src: url('./fonts/Proxima Nova Bold.otf')}
+@font-face{font-family: halvetica; src: url('./fonts/HelveticaNeue Medium.ttf')}
+@font-face{font-family: novareg; src: url('./fonts/Proxima Nova Regular.otf')}
+body{margin: 0;}
+p{margin: 8px 0}
+.head{background: url('./images/top.png')no-repeat center top; background-size: 100%; display: inline-block; width: 100%;}
+.pos{float: left;}
+.pos1{float: right;display: inline-flex;margin-top: 3em;margin-right: 4.3em;}
+.slogan{color: red; font-size: 0.82em; font-family: proximabold;padding-right: 5em;word-spacing: 4px;}
+nav{width: 100%;height: 3.43em; background: #dddddd;}
+nav .container{margin:0 auto;}
+nav .container ul{list-style: none; padding-left: 0;display: inline-block;}
+nav .container ul li{display: inline-block;position: relative; font-family: halvetica; font-size: 1em; padding-right: 22px}
+nav li:after{content: ''; width: 2px; position: absolute;height: 100%; right: 6px;  background: #f9713e;transform: rotate(30deg);}
+nav li:last-child::after{display: none;}
+.inputs{display: inline;}
+nav input{width: 225px; height: 35px; margin: 0em 1em; font-size: 0.8em;;padding: 0 1.5em; font-family: halvetica;font-weight: bold;box-sizing: border-box; position: relative;border: 1px solid #fff;}
+.custum img{position: absolute;} 
+.slider{width: 100%; height: 23.56em; background: #f9713e;}
+.container{margin: 0 auto; padding: 0 15px;}
+.nova{font-size: 1.7em; font-family: proximabold;}
+.heading{text-align: center}
+.content{text-align: center}
+.nova-reg{font-family: novareg; font-size: 1.2em; margin: 0 auto;text-align: justify;padding: 0 2em;margin-bottom: 1.5em;}
+.width{width: 69.9em; margin-top: 2em;}
+.signup{background: url('./images/portion3_bg.jpg') no-repeat; background-size: cover; height: 277px}
+.signup .heading p{font-family: proximabold; font-size: 1.5em; color: #f9713e; padding-top: 1em;}
+.signup .content input{width: 12.250em; height: 3.43em;padding-left: 1em; color: #b5b4b4; font-size: 1em; font-family: proximabold;}
+.signup .content .email input{width: 18.75em; height: 3.43em;padding-left: 1em; color: #b5b4b4; font-size: 1em; font-family: proximabold; margin-top: 1em;}
+.signup .content p{color: #dddddd; font-family: novareg; font-size: 1em; font-style: italic; padding-bottom: 2em;}
+.box1{background: url('./images/box1.jpg') no-repeat; width: 16.250em; height: 8.56em; float: left;margin-right: 1.52em}
+.content.white{font-size: 0.7em; font-family: novareg; color: #fff;}
+.width .box1 .content input{width: 12.06em; height: 1.62em; padding-left: 1em; color: #b5b4b4; font-family: proximabold}
+.box2{background: url('./images/box2.jpg') no-repeat; width: 16.250em; height: 8.56em; float: left; margin-right: 1.52em}
+.box3{background: url('./images/box3.jpg') no-repeat; width: 16.250em; height: 8.56em; float: left; margin-right: 1.52em}
+.box4{background: url('./images/box4.jpg') no-repeat; width: 16.260em; height: 8.56em; float: left;}
+.heading.orange{font-family: proximabold; color: #ff5a25; font-size: 0.8em;}
+.box2 .content.white input{width: 97px;height: 20px; padding-left: 1em; font-size: 8px; font-family: proximabold; margin-right: 1em}
+.box2 .content.a input{width: 148px; height: 2.34em; font-size: 9px; padding-left: 1em; font-family: halvetica; margin-top: 0.5em; font-weight: bold;}
+.box3 .content input{width: 100px; height: 20px;padding-left: 1em; font-size: 8px; font-family: proximabold; margin-right: 10px; margin:0.5em 0;}
+.box4 .content input{width: 100px; height: 25px;padding-left: 1em; font-size: 8px; font-family: proximabold; margin:0 10px 5px 0;}
+.smallwidth{margin-top: 1em; width: 70em; display: inline-block}
+.box5, .box6 , .box7{width:319px; height: 100%; margin-left: 3.0em; float: left}
+.smallwidth .orange{display: flex;}
+.smallwidth .heading.orange img{width: 2em; height: 2em;margin: 0.6em 1.5em 0 0}
+.smallwidth .heading{text-align: justify;}
+.line1{display: flex}
+.line1 img{width: 1em; height: 1em;margin: 0.6em 1.5em 0 0}
+.line1 p{font-family: proximabold;font-size: 0.9em;color: #b5b4b4}
+.green-bg{width: 100%; height: 11em; background-color: #72af4f;}
+.green-bg p{color: #fff;font-family: novareg; font-size: 1.1em; padding-top: 2em; width: 1096px}
+.green-bg .width{margin: 0 auto;}
+.row .smallbox{float: left; border: 1px solid #b5b4b4;width: 168px;height: 178px; margin-right: 16px;margin-top: 1em; position: relative;background: linear-gradient(to left,#f4f4f4,#fdfdfd);}
+#b{margin-right: 0;}
+#b img{height: 108px}
+.smallbox img{height: 120px;width: 165px;}
+.row .smallbox p{text-align: center;font-family: proximabold;font-size: 16px;}
+.row{float: left;}
+.row .smallbox:before{content: "";height: 1.5em;border: 2px solid #ff5c31;position: absolute;top:1.5em}
+.width1{width: 510px; margin: 0 auto;}
+.width1 p{font-family: novareg;font-size: 14px; text-align: center;}
+.width1 p.orange{color: #ff5a25;font-family: proximabold;font-size: 14px; text-align: center;padding-top: 10px;}
+footer{background: url('./images/footer.png'); height: 60px;margin-top: 2em;}
+.boxes{height: 100%;float: left;margin: 1em auto}
+.container.serv{width: 70em;height: auto;}
+.clear{clear: both;}
+.sidebar{float: right;margin-right: 2em;width: 50px;height: 50px;border-radius: 50%; background: black; display: none}
+.fa{color: #fff;font-size: 1.5em;padding: 14px;}
+.unseen{display: none;}
+.email button{width: 4em;height: 3.5em;position: relative;left: -44px;z-index: 116;top:1px;transform-origin: 0 100%;color: #fff;background: #72af4f;outline: 0;border: 0}
+.email button:before{content: '';width: 4em;height: 3.5em;position: absolute;left: -23px;top: 0px;transform: skewX(-37deg);background: #72af4f;}
+.email button span{position: relative;font-family: proximabold;font-size: 18px}
+.zipcode button{width: 40px;height: 27px;position: relative;top:2px;z-index: 116;transform-origin: 0 100%;color: #fff;background: #72af4f;border: 0;outline: 0;left: -40px;}
+.zipcode button:before{content: '';width: 40px;height: 27px;position: absolute;top: 0;left: -9px;;transform: skewX(-34deg);background: #72af4f;overflow: hidden;}
+.zipcode button span{position: relative;font-family: proximabold;font-size: 14px;}
+.smallbox p:after {position: absolute;content: '';width: 47px;border: 1px solid #d3d3d3;bottom: 18px;left: 60px;}
+.smallbox p::before {position: absolute;content: '';width: 47px;border: 1px solid #d3d3d3;bottom: 15px;left: 60px;}
+
+
+/*teere button*/
+.buton .right img{margin-top: 10px;}
+.buton .left, .right {position: relative;height: 40px;width: 150px; float: left;text-align:center;color: #fff;font-family: proximabold;font-size: 13.12px;}
+.buton .right{background:#5e9042;}
+.buton .left{background: #72af4f;padding-right: 25px;}
+.buton .left p{margin-top: 8px;}    
+.buton .right {width: 40px;  }  
+.buton .right:before {content: '';position: absolute;top: 0px;left: -20px;z-index: 1;border-style: solid;border-color: transparent #5e9042 #5e9042 transparent;border-width: 20px 10px 20px 10px;  }
+
+/*for boxes*/
+#boxbtn .right img{margin-top: 5px;}
+#boxbtn .left, .right {position: relative;background: #72af4f;float: left;text-align:center;color: #fff;font-family: proximabold;font-size: 10px;}
+#boxbtn .right{background:#5e9042;width: 30px;height: 25px;padding-right: 0}
+#boxbtn .left{width: 138px;height: 25px;padding-right: 8px;margin-left: 35px}
+#boxbtn .left p{margin-top: 8px;}  
+#boxbtn .right:before {content: '';position: absolute;top: 0px;left: -15px;z-index: 1;border-style: solid;border-color: transparent #5e9042 #5e9042 transparent;border-width: 5px 3px 20px 12px;  }
+    
+/*for 2nd boxes*/
+#boxbtn1 .right img{margin-top: 18px;}
+#boxbtn1 .left, .right {position: relative;background: #72af4f;float: left;text-align:center;color: #fff;font-family: proximabold;font-size: 15px;}
+#boxbtn1 .right{background:#5e9042;width: 50px;height: 45px;padding-right: 0}
+#boxbtn1 .left{width: 110px;height: 45px;padding-right: 8px}
+#boxbtn1 .left p{margin-top: 13px;}  
+#boxbtn1 .right:before {content: '';position: absolute;top: 0px;left: -39px;border-style: solid;border-color: transparent #5e9042 #5e9042 transparent;border-width: 27px 25px 17px 16px;  }
+
+
+
+@media (max-width:798px){
+
+    .pos img{height: 60px;}
+    .flow{overflow: hidden;transition: all 0.2s linear;}
+    .sidenav ul li:hover{color: #f1f1f1;}
+    nav .sidenav{position: absolute ;height: 100%;z-index: 500;overflow: auto;top: 0px;bottom: 0px; left: -300px;width: 15rem;padding: 1.5em;background: rgba(0,0,0,0.8);color: #ffa }
+    .sidebar{display: block;z-index: 600;position: relative;width: 42px;height: 42px;}
+    .fa{padding: 10px;}
+    .unseen{display: block;}
+    .unseen .slogan{padding: 1em 0em; margin: 0; font-size: 1em;}
+    .unseen .green{width: 100%;font-size: 0.9em;}
+    nav{background: none;height: 0;}
+    nav ul li:after{display: none}
+    nav .container ul li{display: block; font-size: 1.11em;line-height: 2em; margin: 0;}
+    nav ul{width: 100%;padding: 0;text-align: center;word-spacing: 13px;}
+    nav .inputs input{margin-top: 5px;}
+    .active{display: block;}
+    .zero{left: 0;}
+    .fullWidth{height: 3em}
+    .head{height: auto;padding-bottom: 1em}
+    .logo{left: 1em; width: 60%;height: 7em;margin-bottom: 1em}
+    .toogle{display: none;}
+    .nova{font-size: 1.3em;}
+    .nova-reg{margin: 0 0em}
+    .width{width: auto; height: auto}
+    .signup .content input{width: 74%; font-size: 0.3em;display: inherit;margin: 5px auto;}
+    .signup .content .email input{width: 30em; font-size: 0.5em}
+    .box1,.box2,.box3,.box4{height: 12.56em;background-size: 100% 100%; margin-bottom: 0.45em; width: 100%;}
+    .heading.orange{font-size: 1em;padding: 0.5em 0;}
+    .content.white{font-size: 1em}
+    .content{text-align: center;}
+    .signup .heading p{font-size: 1.5em;}
+    .smallwidth{width: 90%; height: auto}
+    .box5, .box6 , .box7{margin-left: 5px; width: 90%}
+    .green-bg{height: auto;}
+    .green-bg p{width: auto;padding: 1em 5px;text-align: justify}
+    footer{height: auto}
+    .container.serv{display: flex;width: 95%;height: auto}
+    .row{height: auto;width: 50%;display: inline-grid;}
+    .width1{height: auto;width: auto;}
+    .smallbox img{height: 68%;width: 100%;}
+    .row .smallbox{width: 100%; height: 200px;}
+    nav .sidenav.pushNav{left: 0; transition: all 0.2s linear;}
+    .overlay{top: 0;bottom: 0;right: 0;left: 0;background: #000c;z-index: 200;position: fixed;transition: all 0.2s linear;}
+    .email button{width: 3.2em;height: 2.49em;left:107px;top: -38px;}
+    .email button:before{width: 3em;height: 2.49em;}
+    #boxbtn .left{width: 160px;height: 35px;transform: translateX(120%);margin-top: 1.5em;}
+    #boxbtn .right{width: 35px;height: 35px;transform: translateX(560%);margin-top: 1.001em;}
+    #boxbtn .right::before{left: -21px;border-width: 16px 10px 19px 12px;}
+    .box2 .content.a .zipcode input{height: 2em;}
+    .box2 .zipcode button{height: 1.8em;}
+    .box2 .zipcode button:before{height: 24px;} 
+}
+@media (min-width:799px) and (max-width:1100px){
+    .container.serv{width: 98%;padding: 0 5px;}
+    .container.serv .row{width: 95%;}
+    .container{width: 97%;padding: 0 5px;}
+    .smallwidth{width: 100%;padding: 0 5px;margin: 0 5px;}
+    .green-bg{width: 100%;}
+    .green-bg .width{width: 98%;}
+    .green-bg p{width: 95%;font-size: 1em;margin: 0 auto;}
+    nav .inputs input{width: 150px;margin: 1em 0;font-size: 0.7em;padding: 0;}
+    nav .container ul li{padding-right: 5px;}
+    nav ul li::after{right: 0;transform: rotate(20deg);}
+    .slogan{word-spacing: 0;padding-right: 1em;}
+    
+}
+
+@media (max-width:400px){
+    #boxbtn .left{transform: translateX(0%);margin-top: 0;}
+    #boxbtn .right{        transform: translateX(-15%); margin-top: 0}
+    .signup{height: 335px;}
+    .container.serv{width: 85%; padding: 0;}
+    .container.serv .row{margin: 0 4px;}
+    .email button{height: 2em;   }
+    .email button::before{height: 2em;}
+    .box2 .zipcode button:before {height: 25px;}
+    .box2 .zipcode button {height: 25px;top: 3px;}
+}

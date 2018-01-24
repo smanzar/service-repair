@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./skw-core.css">
+    <link rel="stylesheet" href="./slider.css">
+    <script src="./jquery-1.10.2.min.js"></script>
+    <script src="./modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="./sliderstyle.css">
+    <script src="./slider.js"></script>
+  
+</head>
+<body>
+    <div class="size">
+        <div class="skewSlider main-slide" id="slide1" >
+            <ul>
+                <li>
+                    <div class="skw-content slide1" data-caption="<i>Auto Service Repair Chrysler</i> <br><br> Have Confidence in your <i>Authorized Dealer!</i> <br><br> <button>Learn More > </button>" data-bg="images/slider1.jpg"></div>
+                </li>
+                <li>
+                    <div class="skw-content slide2" data-caption="<i>Auto Service Repair Chrysler</i><br><br>  Have Confidence in your <i>Authorized Dealer!</i> <br><br> <button>Learn More > </button>" data-bg="images/slider2.jpg"></div>
+                </li>
+                <li>
+                    <div class="skw-content slide3" data-caption="<i>Auto Service Repair Chrysler</i> <br><br> Have Confidence in your <i>Authorized Dealer!</i> <br><br> <button>Learn More > </button>" data-bg="images/slider3.jpg"></div>
+                </li>
+                
+            </ul>
+        </div>
+    </div> <br>
+    <br>
+    <br>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+             $('#slide1').skewSlider({
+                animationTime:2,
+                  speed: 1300,
+                  centered: true,
+                  slidePercent: 80,
+                  ratio: 40/11,
+                  itemPadding: true,
+                  breakpoints: {
+                     tablet: {
+                         maxWidth : 1024,
+                         slidePercent : 95,
+                         ratio : 40/20,
+                         moveOnHover: 3,
+                         skew: -20,
+                         itemPadding: false
+                     },
+                     phone: {
+                         maxWidth : 600,
+                         slidePercent : 100,
+                         ratio : 40/28,
+                         skew: -15
+                     }
+                 }
+              });
+          });
+     </script>
+</body>
+</html>
